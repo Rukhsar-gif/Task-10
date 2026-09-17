@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A responsive FAQ accordion built using HTML5, CSS3 and JavaScript."
+    >
+
+    <meta
+        name="author"
+        content="Rukhsar Hussain"
+    >
+
+    <title>FAQ Accordion | Veda Technology Task 10</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <section
+            class="faq-container"
+            aria-labelledby="page-title"
+        >
+
+            <header class="header">
+
+                <h1 id="page-title">
+                    FAQ Accordion
+                </h1>
+
+                <p class="description">
+                    Click a question to expand or collapse its answer.
+                </p>
+
+            </header>
+
+
+            <section
+                class="faq-section"
+                aria-label="Frequently asked questions"
+            >
+
+                <!-- FAQ 1 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is HTML?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            HTML stands for HyperText Markup Language.
+                            It is used to structure content on web pages
+                            using elements such as headings, paragraphs,
+                            links, images, and sections.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 2 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is CSS?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            CSS stands for Cascading Style Sheets.
+                            It is used to control the appearance, layout,
+                            spacing, colors, and responsive behavior of
+                            web pages.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 3 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is JavaScript?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            JavaScript is a programming language commonly
+                            used to add interactivity and dynamic
+                            behavior to web pages and applications.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 4 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is the DOM?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            DOM stands for Document Object Model.
+                            It represents the structure of an HTML
+                            document as objects that JavaScript can
+                            access and modify.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 5 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is responsive web design?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Responsive web design allows a website to
+                            adapt its layout and content to different
+                            screen sizes such as desktops, tablets,
+                            and mobile devices.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 6 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What does classList.toggle() do?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            classList.toggle() adds a class if it is
+                            not present and removes it if it is already
+                            present. It is useful for creating
+                            interactive UI components.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 7 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>What is event handling in JavaScript?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Event handling allows JavaScript to respond
+                            to user actions such as clicks, keyboard
+                            input, mouse movements, and form submissions.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FAQ 8 -->
+                <article class="faq-item">
+
+                    <button
+                        type="button"
+                        class="faq-question"
+                        aria-expanded="false"
+                    >
+                        <span>Why are buttons useful for FAQ questions?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Buttons provide a semantic and accessible
+                            interactive element for users to expand
+                            and collapse FAQ answers.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
